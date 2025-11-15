@@ -14,9 +14,9 @@ interface EmergencyFund {
 
 export function EmergencyFundPage() {
   const [fund, setFund] = useState<EmergencyFund>({
-    targetAmount: 10000,
+    targetAmount: 0,
     currentAmount: 0,
-    monthlyExpenses: 2000,
+    monthlyExpenses: 0,
   });
   const [isEditing, setIsEditing] = useState(false);
 

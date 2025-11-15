@@ -78,14 +78,14 @@ export function Dashboard() {
         {
           id: "1",
           name: "Main Checking",
-          balance: 2450.0,
+          balance: 0,
           color: "from-blue-500 to-blue-600",
           icon: "Wallet",
         },
         {
           id: "2",
           name: "Savings Account",
-          balance: 8720.5,
+          balance: 0,
           color: "from-green-500 to-green-600",
           icon: "Building",
         },
