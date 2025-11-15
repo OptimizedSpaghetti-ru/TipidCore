@@ -179,7 +179,7 @@ export function GoalsPage() {
                       <span>Daily</span>
                     </div>
                     <p className="text-violet-900">
-                      ${goal.dailyAmount.toFixed(2)}
+                      ₱{goal.dailyAmount.toFixed(2)}
                     </p>
                   </div>
                   <div className="bg-purple-50 rounded-lg p-3">
